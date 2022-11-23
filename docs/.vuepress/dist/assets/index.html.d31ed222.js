@@ -1,1 +1,0 @@
-import{_ as o,o as t,c as a,a as e,b as n}from"./app.f4f6786d.js";const c={},r=e("h1",{id:"note-book",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#note-book","aria-hidden":"true"},"#"),n(" Note Book")],-1),s=[r];function _(d,i){return t(),a("div",null,s)}const l=o(c,[["render",_],["__file","index.html.vue"]]);export{l as default};

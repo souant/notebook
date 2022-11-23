@@ -6,11 +6,15 @@ set -e
 # 生成静态文件
 npm run docs:build
 
+# 提交
+git add .
+git commit -m 'build'
 git push git@github.com:souant/notebook.git master:master
 
 # 进入生成的文件夹
 cd docs/.vuepress/dist
 
+# 提交发布代码
 git init
 git add -A
 git commit -m 'deploy'

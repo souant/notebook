@@ -13,8 +13,8 @@ import {sidebar} from './configs/sidebar'
 export default defineUserConfig({
   base: '/notebook/',
   lang: 'zh-CN',
-  title: 'BLOG',
-  description: '这是VuePress站点',
+  title: 'Note Book',
+  description: '这是基于VuePress的站点',
   theme: defaultTheme({
     // 默认主题配置
     navbar,

@@ -11,6 +11,7 @@ import {navbar} from './configs/navbar'
 import {sidebar} from './configs/sidebar'
 
 export default defineUserConfig({
+  base: 'notebook',
   lang: 'zh-CN',
   title: 'BLOG',
   description: '这是VuePress站点',

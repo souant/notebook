@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-e02a086e","path":"/javascript/","title":"介绍","lang":"zh-CN","frontmatter":{"lang":"zh-CN","title":"介绍","description":"js模块说明"},"excerpt":"","headers":[],"git":{"updatedTime":1669177917000,"contributors":[{"name":"suntao","email":"suntao01@eqxiu.com","commits":1}]},"filePathRelative":"javascript/README.md"}');export{t as data};

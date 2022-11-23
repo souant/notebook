@@ -6,6 +6,8 @@ set -e
 # 生成静态文件
 npm run docs:build
 
+git push git@github.com:souant/notebook.git master:master
+
 # 进入生成的文件夹
 cd docs/.vuepress/dist
 

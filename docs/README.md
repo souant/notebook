@@ -8,7 +8,17 @@ description: Note Book
 ```bash
 └─javascript
     └─javascript高级程序设计
+    └─微前端
 ```
+
+
+
+## 计划
+- [JavaScript高级程序设计](/notebook/javascript/javascript高级程序设计/) 30%
+- [微前端-乾坤](/notebook/javascript/微前端/) 0%
+
+
+
 
 ## 使用方式
 > 运行deploy.sh shell脚本文件, 发布+部署
@@ -45,3 +55,6 @@ git push -f git@github.com:souant/notebook.git master:gh-pages
 
 cd -
 ```
+
+
+

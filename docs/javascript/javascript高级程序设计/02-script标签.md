@@ -2,7 +2,6 @@
 lang: zh-CN
 title: 02-script标签
 description: 02-script标签
-contributors: false
 ---
 
 # `<script>`标签

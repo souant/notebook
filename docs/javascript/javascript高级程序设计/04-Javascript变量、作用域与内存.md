@@ -2,6 +2,7 @@
 lang: zh-CN
 title: 04-Javascript变量、作用域与内存
 description: 04-Javascript变量、作用域与内存
+contributors: false
 ---
 
 # 变量、作用域与内存

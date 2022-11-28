@@ -2,6 +2,7 @@
 lang: zh-CN
 title: 03-javascript语言基础
 description: 03-javascript语言基础
+contributors: false
 ---
 
 # 语言基础

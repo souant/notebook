@@ -2,6 +2,7 @@
 lang: zh-CN
 title: 01-javascript组成
 description: 01-javascript组成
+contributors: false
 ---
 
 # JavaScript组成

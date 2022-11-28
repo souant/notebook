@@ -2,6 +2,7 @@
 lang: zh-CN
 title: Note Book
 description: Note Book
+contributors: false 
 ---
 # Note Book 
 

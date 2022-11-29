@@ -1,0 +1,1 @@
+import{_ as t,o as a,c as s,a as e,d as c}from"./app.208d3657.js";const n={},o=e("h1",{id:"js页面",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#js页面","aria-hidden":"true"},"#"),c(" js页面")],-1),r=[o];function d(_,i){return a(),s("div",null,r)}const l=t(n,[["render",d],["__file","index.html.vue"]]);export{l as default};

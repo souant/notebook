@@ -5,6 +5,6 @@ export const navbar = [
   },
   {
     text: 'JavaScript',
-    link: '/javascript/',
+    link: '/docs/javascript/',
   },
 ]

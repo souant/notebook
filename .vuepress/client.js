@@ -1,7 +1,8 @@
 import { defineClientConfig } from '@vuepress/client'
 
 export default defineClientConfig({
-  enhance({ app, router, siteData }) {},
-  setup() {},
+  enhance({ app, router, siteData }){},
+  setup(){},
+  layouts: {},
   rootComponents: [],
 })

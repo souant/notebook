@@ -1,1 +1,0 @@
-import{_ as e,o as t,c,a as n}from"./app.208d3657.js";const o={},s=n("p",null,"《javascript高级程序设计》",-1),_=[s];function a(r,l){return t(),c("div",null,_)}const d=e(o,[["render",a],["__file","index.html.vue"]]);export{d as default};

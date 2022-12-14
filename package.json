@@ -2,15 +2,16 @@
   "name": "notebook",
   "version": "1.0.0",
   "main": "index.js",
+  "repository": "https://gitee.com/mwoen/notebook.git",
+  "author": "souant <1032911889@qq.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "vuepress dev",
-    "build": "vuepress build"
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
   },
   "devDependencies": {
-    "@vuepress/plugin-back-to-top": "^2.0.0-beta.53",
-    "@vuepress/plugin-docsearch": "^2.0.0-beta.53",
-    "vuepress": "^2.0.0-beta.53"
-  },
-  "dependencies": {}
+    "vitepress": "^1.0.0-alpha.31",
+    "vue": "^3.2.45"
+  }
 }

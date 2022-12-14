@@ -12,7 +12,7 @@ git commit -m 'build'
 git push git@github.com:souant/notebook.git master:master
 
 # 进入生成的文件夹
-cd .vuepress/dist
+cd .vitepress/dist
 
 # 提交发布代码
 git init

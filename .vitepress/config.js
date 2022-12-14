@@ -6,7 +6,8 @@ export default {
     nav: [
       { text: 'JS', link: '/docs/javascript/' },
       { text: 'JAVA', link: '/docs/java/' },
-      { text: 'Docker', link: '/docs/docker/' }
+      { text: 'Docker', link: '/docs/docker/' },
+      { text: 'Vpn', link: '/docs/vpn/' }
     ],
     sidebar: {
       '/docs/javascript/': [
@@ -30,6 +31,22 @@ export default {
           collapsed: true,
           items: [
             { text: '介绍', link: '/docs/javascript/微前端/'},
+          ]
+        },
+        {
+          text: 'uniapp',
+          collapsible: true,
+          collapsed: true,
+          items: [
+            { text: '介绍', link: '/docs/javascript/uniapp/'},
+          ]
+        }
+      ],
+      '/docs/vpn/': [
+        {
+          text: 'VPN：虚拟专用网络',
+          items: [
+            {text: 'v2ray', link: '/docs/vpn/v2ray'}
           ]
         }
       ]

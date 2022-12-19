@@ -9,6 +9,7 @@ export default {
       next: '下一页'
     },
     nav: [
+      { text: 'html', link: '/docs/html/'},
       { text: 'JS', link: '/docs/javascript/' },
       { text: 'JAVA', link: '/docs/java/' },
       { text: 'Docker', link: '/docs/docker/' },

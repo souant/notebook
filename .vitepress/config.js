@@ -55,6 +55,14 @@ export default {
             {text: 'v2ray', link: '/docs/vpn/v2ray'}
           ]
         }
+      ],
+      '/docs/html/': [
+        {
+          text: '实例实现',
+          items: [
+            {text: '实现一个环形进度条', link: '/docs/html/实现一个环形进度条.md'}
+          ]
+        }
       ]
     }
   }

@@ -5,6 +5,7 @@ export default [
     items: [
       { text: "书籍", link: "/docs/javascript/books/" },
       { text: "框架", link: "/docs/javascript/frame/" },
+      { text: "webpack", link: "/docs/javascript/webpack/" },
       { text: "杂项", link: "/docs/javascript/others/" },
     ],
   },

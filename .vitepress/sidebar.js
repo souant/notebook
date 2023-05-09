@@ -52,6 +52,7 @@ export default {
       collapsed: true,
       items: [{ text: "介绍", link: "/docs/javascript/frame/微前端/" }],
     },
+    
   ],
   "/docs/javascript/others": [
     {
@@ -68,6 +69,12 @@ export default {
           link: "/docs/javascript/others/for循环中return、break、continue作用.md",
         },
       ],
+    },
+  ],
+  "/docs/javascript/webpack": [
+    {
+      text: "webpack",
+      items: [],
     },
   ],
   "/docs/vpn/": [

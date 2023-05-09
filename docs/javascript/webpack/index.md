@@ -52,7 +52,6 @@ exit $ret
      runCli(cli);
    }
    ```
-
 2. runCli()加载 webpack-cli 库并执行/webpack-cli/bin/cli.js，再执行/webpack-cli/lib/bootstrap.js，创建 webpack-cli 对象并运行 run()方法
 
    ```js
@@ -72,42 +71,38 @@ exit $ret
    };
    module.exports = runCLI;
    ```
-
 3. webpack-cli run()方法会解析各种 option，执行加载 webpack 库 `this.loadWebpack()`，执行 `runWebpack()`，最终会执行 `createCompiler()`方法
 
    ```js
    async run(args, parseOptions) {
-    // ...
-    const loadCommandByName = async (commandName, allowToInstall = false) => {
-      // ...
-      if (isBuildCommandUsed || isWatchCommandUsed) {
+     // ...
+     const loadCommandByName = async (commandName, allowToInstall = false) => {
+       // ...
+       if (isBuildCommandUsed || isWatchCommandUsed) {
          await this.makeCommand(isBuildCommandUsed ? buildCommandOptions : watchCommandOptions, async () => {
-           this.webpack = await this.loadWebpack();
-           return isWatchCommandUsed
-             ? this.getBuiltInOptions().filter((option) => option.name !== "watch")
-             : this.getBuiltInOptions();
-         }, async (entries, options) => {
-           if (entries.length > 0) {
-             options.entry = [...entries, ...(options.entry || [])];
-           }
-           await this.runWebpack(options, isWatchCommandUsed);
-         });
-       }
-      // ...
+            this.webpack = await this.loadWebpack();
+            return isWatchCommandUsed
+              ? this.getBuiltInOptions().filter((option) => option.name !== "watch")
+              : this.getBuiltInOptions();
+          }, async (entries, options) => {
+            if (entries.length > 0) {
+              options.entry = [...entries, ...(options.entry || [])];
+            }
+            await this.runWebpack(options, isWatchCommandUsed);
+          });
+        }
+       // ...
+     }
+     // ...
     }
-    // ...
-   }
-
-   async runWebpack(options, isWatchCommand) {
-    // 其他操作
-    // ...
-    compiler = await this.createCompiler(options, callback);
-    // ...
-   }
-
-
+    
+    async runWebpack(options, isWatchCommand) {
+     // 其他操作
+     // ...
+     compiler = await this.createCompiler(options, callback);
+     // ...
+    }
    ```
-
 4. `runWebpack()` 会执行 webpack 包，/lib/webpack.js，是一个工厂函数 webpack，创建 webpack 对象并执行 run()
 
    ```js
@@ -137,7 +132,6 @@ exit $ret
     }
    }
    ```
-
 5. createCompiler()创建 Compiler 对象时，同步加载 options 中的插件，再加载 webpack 内置 options 插件
 
    ```js
@@ -165,7 +159,6 @@ exit $ret
      return compiler;
    };
    ```
-
 6. Compiler 对象执行 run()方法，最终再执行 compile()方法，创建 Compilation 对象
 
    ```js
@@ -216,7 +209,6 @@ exit $ret
      });
    }
    ```
-
 7. compile()方法会调用 webpack 核心 `tabable`去执行 webpack 所有操作
 
 ## compile 执行阶段

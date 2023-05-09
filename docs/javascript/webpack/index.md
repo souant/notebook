@@ -74,37 +74,36 @@ exit $ret
 3. webpack-cli run()方法会解析各种 option，执行加载 webpack 库 `this.loadWebpack()`，执行 `runWebpack()`，最终会执行 `createCompiler()`方法
 
    ```js
-
-
    async run(args, parseOptions) {
-   	...
+   	// ...
    	const loadCommandByName = async (commandName, allowToInstall = false) => {
-
-   	...
+   	  // ...
    		if (isBuildCommandUsed || isWatchCommandUsed) {
-                   	await this.makeCommand(isBuildCommandUsed ? buildCommandOptions : watchCommandOptions, async () => {
-                       	this.webpack = await this.loadWebpack();
-                      	 return isWatchCommandUsed
-                           	? this.getBuiltInOptions().filter((option) => option.name !== "watch")
-                           	: this.getBuiltInOptions();
-                   	}, async (entries, options) => {
-                       	if (entries.length > 0) {
-                           	options.entry = [...entries, ...(options.entry || [])];
-                       	}
-                       	await this.runWebpack(options, isWatchCommandUsed);
-                   	});
-               	}
-   	...
+         await this.makeCommand(isBuildCommandUsed ? buildCommandOptions : watchCommandOptions, async () => {
+           this.webpack = await this.loadWebpack();
+           return isWatchCommandUsed
+             ? this.getBuiltInOptions().filter((option) => option.name !== "watch")
+             : this.getBuiltInOptions();
+         }, async (entries, options) => {
+           if (entries.length > 0) {
+             options.entry = [...entries, ...(options.entry || [])];
+           }
+           await this.runWebpack(options, isWatchCommandUsed);
+         });
+       }
+   	  // ...
    	}
-   	...
+   	// ...
    }
 
    async runWebpack(options, isWatchCommand) {
    	// 其他操作
-   	...
+   	// ...
    	compiler = await this.createCompiler(options, callback);
-   	...
+   	// ...
    }
+
+
    ```
 4. `runWebpack()` 会执行 webpack 包，/lib/webpack.js，是一个工厂函数 webpack，创建 webpack 对象并执行 run()
 
@@ -166,51 +165,51 @@ exit $ret
 
    ```js
    compile(callback) {
-   		const params = this.newCompilationParams();
-   		this.hooks.beforeCompile.callAsync(params, err => {
-   			if (err) return callback(err);
+     const params = this.newCompilationParams();
+     this.hooks.beforeCompile.callAsync(params, err => {
+       if (err) return callback(err);
 
-   			this.hooks.compile.call(params);
+       this.hooks.compile.call(params);
 
-   			const compilation = this.newCompilation(params);
+       const compilation = this.newCompilation(params);
 
-   			const logger = compilation.getLogger("webpack.Compiler");
+       const logger = compilation.getLogger("webpack.Compiler");
 
-   			logger.time("make hook");
-   			this.hooks.make.callAsync(compilation, err => {
-   				logger.timeEnd("make hook");
-   				if (err) return callback(err);
+       logger.time("make hook");
+       this.hooks.make.callAsync(compilation, err => {
+         logger.timeEnd("make hook");
+         if (err) return callback(err);
 
-   				logger.time("finish make hook");
-   				this.hooks.finishMake.callAsync(compilation, err => {
-   					logger.timeEnd("finish make hook");
-   					if (err) return callback(err);
+         logger.time("finish make hook");
+         this.hooks.finishMake.callAsync(compilation, err => {
+           logger.timeEnd("finish make hook");
+           if (err) return callback(err);
 
-   					process.nextTick(() => {
-   						logger.time("finish compilation");
-   						compilation.finish(err => {
-   							logger.timeEnd("finish compilation");
-   							if (err) return callback(err);
+           process.nextTick(() => {
+             logger.time("finish compilation");
+             compilation.finish(err => {
+               logger.timeEnd("finish compilation");
+               if (err) return callback(err);
 
-   							logger.time("seal compilation");
-   							compilation.seal(err => {
-   								logger.timeEnd("seal compilation");
-   								if (err) return callback(err);
+               logger.time("seal compilation");
+               compilation.seal(err => {
+                 logger.timeEnd("seal compilation");
+                 if (err) return callback(err);
 
-   								logger.time("afterCompile hook");
-   								this.hooks.afterCompile.callAsync(compilation, err => {
-   									logger.timeEnd("afterCompile hook");
-   									if (err) return callback(err);
+                 logger.time("afterCompile hook");
+                 this.hooks.afterCompile.callAsync(compilation, err => {
+                   logger.timeEnd("afterCompile hook");
+                   if (err) return callback(err);
 
-   									return callback(null, compilation);
-   								});
-   							});
-   						});
-   					});
-   				});
-   			});
-   		});
-   	}
+                   return callback(null, compilation);
+                 });
+               });
+             });
+           });
+         });
+       });
+     });
+   }
    ```
 7. compile()方法会调用 webpack 核心 `tabable`去执行 webpack 所有操作
 

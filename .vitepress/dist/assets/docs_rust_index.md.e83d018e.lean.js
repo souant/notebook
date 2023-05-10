@@ -1,1 +1,0 @@
-import{_ as s,c as a,o as l,d as e}from"./app.0ac3e32a.js";const y=JSON.parse('{"title":"rust","description":"","frontmatter":{},"headers":[],"relativePath":"docs/rust/index.md"}'),n={name:"docs/rust/index.md"},p=e("",9),t=[p];function o(c,i,r,d,C,h){return l(),a("div",null,t)}const g=s(n,[["render",o]]);export{y as __pageData,g as default};

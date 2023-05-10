@@ -8,10 +8,10 @@ export default {
           text: "实现一个环形进度条",
           link: "/docs/html/实现一个环形进度条.md",
         },
-        {
-          text: "实现一个滑动标尺",
-          link: "/docs/html/实现一个滑动标尺.md",
-        },
+        // {
+        //   text: "实现一个滑动标尺",
+        //   link: "/docs/html/实现一个滑动标尺.md",
+        // },
       ],
     },
   ],

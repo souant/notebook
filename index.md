@@ -3,7 +3,7 @@ lang: zh-CN
 title: Note Book
 description: Note Book
 ---
-# Note Book 
+# Note Book
 
 ```bash
 └─javascript
@@ -11,15 +11,22 @@ description: Note Book
     └─微前端
 ```
 
+## 文章中引入vue组件
 
-
+```js
+<script setup>
+import VueComponent from './example/vue-component/index.vue'
+</script>
+```
 
 ## 使用方式
+
 > 运行deploy.sh shell脚本文件, 发布+部署
 
 ```bash
   ./deploy.sh
 ```
+
 包含构建、push到github代码，自动将build的文件发布到gh-pages分支
 
 ```bash
@@ -49,6 +56,3 @@ git push -f git@github.com:souant/notebook.git master:gh-pages
 
 cd -
 ```
-
-
-

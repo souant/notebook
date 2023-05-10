@@ -1,4 +1,24 @@
 export default {
+  // html
+  "/docs/html/": [
+    {
+      text: "实例实现",
+      items: [
+        {
+          text: "实现一个环形进度条",
+          link: "/docs/html/实现一个环形进度条.md",
+        },
+        {
+          text: "实现一个滑动标尺",
+          link: "/docs/html/实现一个滑动标尺.md",
+        },
+      ],
+    },
+  ],
+
+
+  
+  // javascript
   "/docs/javascript/books": [
     {
       text: "javascript高级程序设计",
@@ -71,31 +91,15 @@ export default {
       ],
     },
   ],
-  "/docs/javascript/webpack": [
-    {
-      text: "webpack",
-      items: [],
-    },
-  ],
-  "/docs/vpn/": [
+
+
+  // vpn
+  "/docs/others/vpn": [
     {
       text: "VPN：虚拟专用网络",
-      items: [{ text: "v2ray", link: "/docs/vpn/v2ray" }],
+      items: [{ text: "v2ray", link: "/docs/others/vpn/v2ray" }],
     },
   ],
-  "/docs/html/": [
-    {
-      text: "实例实现",
-      items: [
-        {
-          text: "实现一个环形进度条",
-          link: "/docs/html/实现一个环形进度条.md",
-        },
-        {
-          text: "实现一个滑动标尺",
-          link: "/docs/html/实现一个滑动标尺.md",
-        },
-      ],
-    },
-  ],
+
+  
 };

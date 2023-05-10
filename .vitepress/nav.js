@@ -9,7 +9,10 @@ export default [
       { text: "杂项", link: "/docs/javascript/others/" },
     ],
   },
-  { text: "JAVA", link: "/docs/java/" },
-  { text: "Docker", link: "/docs/docker/" },
-  { text: "Vpn", link: "/docs/vpn/" },
+  { text: "Rust", link: "/docs/rust/" },
+  { text: "Java", link: "/docs/java/" },
+  { text: "杂项", items: [
+    { text: "VPN", link: "/docs/others/vpn/" },
+    { text: "Docker", link: "/docs/others/docker/" },
+  ] },
 ];

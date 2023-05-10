@@ -1,7 +1,15 @@
 export default [
-  { text: "html", link: "/docs/html/" },
+  // html
+  { text: "HTML", link: "/docs/html/" },
+
+
+  // css
+  { text: "CSS", link: "/docs/css/" },
+
+
+  // js
   {
-    text: "JS",
+    text: "JavaScript",
     items: [
       { text: "书籍", link: "/docs/javascript/books/" },
       { text: "框架", link: "/docs/javascript/frame/" },
@@ -9,8 +17,16 @@ export default [
       { text: "杂项", link: "/docs/javascript/others/" },
     ],
   },
+
+
+  // rust
   { text: "Rust", link: "/docs/rust/" },
+
+
+  // java
   { text: "Java", link: "/docs/java/" },
+
+  // 其他
   { text: "杂项", items: [
     { text: "VPN", link: "/docs/others/vpn/" },
     { text: "Docker", link: "/docs/others/docker/" },

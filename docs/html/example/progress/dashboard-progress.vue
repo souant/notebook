@@ -1,7 +1,5 @@
 <template>
-  <div>
-    <canvas id="canvas2" width="300" height="300"></canvas>
-  </div>
+  <canvas id="canvas2" width="300" height="300" style="margin: 0 auto"></canvas>
 </template>
 
 <script setup>

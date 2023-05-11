@@ -28,6 +28,7 @@ export default [
 
   // 其他
   { text: "杂项", items: [
+    { text: "规范", link: "/docs/others/规范/" },
     { text: "VPN", link: "/docs/others/vpn/" },
     { text: "Docker", link: "/docs/others/docker/" },
   ] },

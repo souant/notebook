@@ -1,15 +1,10 @@
 <script setup>
-  import CircleProgress from './example/progress/circle-progress.vue'
   import DashboardProgress from './example/progress/dashboard-progress.vue'
 </script>
 
 # 实现一个环形进度条
 
-## 示例 1
-
-<CircleProgress />
-
-## 示例 2
+## 示例
 
 <DashboardProgress />
 

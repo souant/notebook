@@ -5,8 +5,8 @@ export default {
       text: "实例实现",
       items: [
         {
-          text: "实现一个环形进度条",
-          link: "/docs/html/实现一个环形进度条.md",
+          text: "环形进度条（canvas）",
+          link: "/docs/html/环形进度条（canvas）.md",
         },
         // {
         //   text: "实现一个滑动标尺",

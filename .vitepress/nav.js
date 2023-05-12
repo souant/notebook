@@ -14,7 +14,7 @@ export default [
       { text: "书籍", link: "/docs/javascript/books/" },
       { text: "框架", link: "/docs/javascript/frame/" },
       { text: "webpack", link: "/docs/javascript/webpack/" },
-      { text: "杂项", link: "/docs/javascript/others/" },
+      { text: "其他", link: "/docs/javascript/others/" },
     ],
   },
 
@@ -27,7 +27,7 @@ export default [
   { text: "Java", link: "/docs/java/" },
 
   // 其他
-  { text: "杂项", items: [
+  { text: "其他", items: [
     { text: "规范", link: "/docs/others/规范/" },
     { text: "VPN", link: "/docs/others/vpn/" },
     { text: "Docker", link: "/docs/others/docker/" },

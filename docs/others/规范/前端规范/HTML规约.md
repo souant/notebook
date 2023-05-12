@@ -9,7 +9,7 @@ Vue Template 同样适用
 
 ## 1.1 文档规范
 
-1. 【强制】使用 HTML5 DOCTYPE
+1. ### 【强制】使用 HTML5 DOCTYPE
    
 在 HTML 文档的开头使用 `<!DOCTYPE html>` 来声明文档的 HTML 版本。
 
@@ -47,7 +47,7 @@ Vue Template 同样适用
 ```
 
 
-2.  【推荐】在 `head` 标签内引入 CSS，在 `body` 结束标签前引入 JS。
+2.  ### 【推荐】在 `head` 标签内引入 CSS，在 `body` 结束标签前引入 JS。
    
 正例：
 ```html
@@ -88,7 +88,7 @@ Vue Template 同样适用
 
 ## 1.2 元数据
 
-1. 【推荐】使用 UTF-8 字符编码。
+1. ### 【推荐】使用 UTF-8 字符编码。
 
 - 声明一个明确的字符编码，可以让浏览器更快速高效地确定适合网页内容的渲染方式。
 - 由于历史原因，不同浏览器采用了不同的字符编码。但对于新业务，如无特殊要求，统一使用 UTF-8 字符编码，以便统一。
@@ -100,19 +100,19 @@ Vue Template 同样适用
 </head>
 ```
 
-2. 【推荐】页面提供给移动设备使用时，需要设置 viewport。
+2. ### 【推荐】页面提供给移动设备使用时，需要设置 viewport。
 
-- 设置 viewport-fit 设置为“cover”来兼容 iPhone X 的刘海屏，了解更多 。
+- 设置 `viewport-fit` 设置为“cover”来兼容 iPhone X 的刘海屏，了解更多 。
 
 ```html
 <meta name="viewport" content="width=device-width, minimum-scale=1.0, viewport-fit=cover" />
 ```
 
-3. 【强制】保证 favicon.ico 可访问。
+3. ### 【强制】保证 favicon.ico 可访问。
 
-在未指定 favicon 时，大多数浏览器会请求 Web Server 根目录下的 favicon.ico 。为了保证 favicon 可访问，避免 404，必须遵循以下两种方法之一：
+在未指定 favicon 时，大多数浏览器会请求 Web Server 根目录下的 `favicon.ico `。为了保证 favicon 可访问，避免 404，必须遵循以下两种方法之一：
 
-   1. 在 Web Server 根目录放置 favicon.ico 文件。
+   1. 在 Web Server 根目录放置 `favicon.ico` 文件。
    2. 使用 link 指定 favicon。
 
 示例：
@@ -127,47 +127,47 @@ Vue Template 同样适用
 
 ## 2.1 缩进
 
-   1. 【强制】统一使用 2 个空格缩进
+1. ### 【强制】统一使用 2 个空格缩进
 
-   不要使用 4 个空格或 tab 缩进，设置vscode缩进tab 2个字符
+不要使用 4 个空格或 tab 缩进，设置vscode缩进tab 2个字符
 
 
 
 ## 2.2 注释
 
-   1. 【推荐】分块注释
+1. ### 【推荐】分块注释
 
-   在每一个块状元素，列表元素和表格元素后，加上一对 HTML 注释。注释格式
+在每一个块状元素，列表元素和表格元素后，加上一对 HTML 注释。注释格式
 
-   ```html
-   正例：
-   <body>
-     <!-- header 头部 start -->
-     <header>
-       <div class="container">
-         <a href="#">
-         <!-- 图片会把 a 标签给撑开，所以不用设置 a 标签的大小 -->
-         <img src="images/header.jpg" />
-         </a>
-       </div>
-     </header>
-     <!-- header 头部 end -->
-   </body>
-   ```
+```html
+正例：
+<body>
+  <!-- header 头部 start -->
+  <header>
+    <div class="container">
+      <a href="#">
+      <!-- 图片会把 a 标签给撑开，所以不用设置 a 标签的大小 -->
+      <img src="images/header.jpg" />
+      </a>
+    </div>
+  </header>
+  <!-- header 头部 end -->
+</body>
+```
 
-   2.  【强制】在 HTML 注释代码中，不允许出现任何敏感信息。
+2. ###  【强制】在 HTML 注释代码中，不允许出现任何敏感信息。
 
-       常见的敏感信息包括：
-       - 业务相关敏感信息，例如业务规则
-       - 员工个人隐私信息，例如邮箱、手机、身份证号码
-       - AK（accessKey id, accesskey secret）
-       - 证书、密码
-       - 内网 IP、URL
-       - 其他公司、员工相关的内部信息、敏感信息
+    常见的敏感信息包括：
+    - 业务相关敏感信息，例如业务规则
+    - 员工个人隐私信息，例如邮箱、手机、身份证号码
+    - AK（accessKey id, accesskey secret）
+    - 证书、密码
+    - 内网 IP、URL
+    - 其他公司、员工相关的内部信息、敏感信息
 
 ## 2.3 标签
 
-  1. 【强制】语义化标签
+  1. ### 【强制】语义化标签
 
   HTML 标签（更严谨的叫法是 HTML 元素）都有其语义，例如 p 标签即“paragraphs”用于章节，a 标签即“anchors”用于锚点链接。我们应优先选取符合当下所需语义的标签，这既有助于可访问性（Accessibility），也可以在 CSS 加载失败时获得较好的展示效果
 
@@ -185,7 +185,7 @@ Vue Template 同样适用
     <p></p>
   </div>
   ```
-  2. 【强制】标签名统一使用小写，且标签必须正确闭合
+  2. ### 【强制】标签名统一使用小写，且标签必须正确闭合
     
   正例：
 
@@ -203,13 +203,13 @@ Vue Template 同样适用
   <img src="..." />
   ```
 
-  3. 【强制】标签使用必须符合标签嵌套规则。
+  3. ### 【强制】标签使用必须符合标签嵌套规则。
 
   比如 div 不得置于 p 中，tbody 必须置于 table 中。
 
   详细的标签嵌套规则参见HTML DTD中的 Elements 定义部分。
 
-  4. 【强制】禁止 img 的 src 取值为空。延迟加载的图片也要增加默认的 `src`
+  4. ### 【强制】禁止 img 的 src 取值为空。延迟加载的图片也要增加默认的 `src`
 
   > src 取值为空，会导致部分浏览器重新加载一次当前页面，参考：https://developer.yahoo.com/performance/rules.html#emptysrc
 
@@ -223,7 +223,7 @@ Vue Template 同样适用
 
 ## 2.4 属性
 
-  1. 【强制】属性名必须使用小写字母。
+  1. ### 【强制】属性名必须使用小写字母。
 
   正例
 
@@ -239,7 +239,7 @@ Vue Template 同样适用
   <table cellSpacing="0">...</table>
   ```
 
-  2. 【强制】属性值使用双引号，不要使用单引号。
+  2. ### 【强制】属性值使用双引号，不要使用单引号。
 
   使用双引号 (“ “) 而不是单引号 (‘ ‘) 。
 
@@ -255,9 +255,9 @@ Vue Template 同样适用
   <div class=''></div>
   ```
 
-  3. 【推荐】自定义属性的命名：以 data- 为前缀。
+  3. ### 【推荐】自定义属性的命名：以 `data-` 为前缀。
 
-  建议自定义属性的命名都以 data- 为前缀，以便区分。
+  建议自定义属性的命名都以 `data-` 为前缀，以便区分。
 
   正例：
 
@@ -275,7 +275,7 @@ Vue Template 同样适用
   </a>
   ```
 
-  4. 【强制】class 必须单词全字母小写，单词间以 - 分隔。
+  4. ### 【强制】class 必须单词全字母小写，单词间以 `-` 分隔。
 
   > class 【推荐】必须代表相应模块或部件的内容或功能，不得以样式信息进行命名。
 
@@ -295,7 +295,7 @@ Vue Template 同样适用
   <div class="left"></div>
   ```
 
-  5. 【强制】同一页面，应避免使用相同的 `name` 与 `id`
+  5. ### 【强制】同一页面，应避免使用相同的 `name` 与 `id`
 
   IE 浏览器会混淆元素的 `id` 和 `name` 属性， `document.getElementById` 可能获得不期望的元素。所以在对元素的 `id` 与 `name` 属性的命名需要非常小心。
 

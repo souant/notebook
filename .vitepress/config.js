@@ -14,5 +14,6 @@ export default defineConfig({
     },
     nav: nav,
     sidebar: sidebar,
+    outline: [2, 6],
   },
 });

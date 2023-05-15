@@ -6,13 +6,14 @@ description: 03-javascript语言基础
 
 # 语言基础
 
-## js6种原始数据类型
+## js 7种原始数据类型
   1. Undefined
   2. Null
   3. Boolean
   4. Number
   5. String
   6. Symbol
+  7. BigInt
 
 
 ## typeof 操作符
@@ -71,6 +72,11 @@ console.log(isNaN(null)); // false
 > isNaN方法判断时，会做隐式的类型转换
 
 ## String类型（字符串）
+
+表示零或多个 16 位 Unicode 字符序列
+
+字符串可以使用双引号（"）、单引号（'）或反引号（`）标示
+
 > toString()方法可用于将数字转换进制
 
 

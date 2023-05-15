@@ -35,11 +35,11 @@ export default {
           link: "/docs/javascript/books/javascript高级程序设计/02-script标签",
         },
         {
-          text: "03-javascript语言基础",
+          text: "03-JS语言基础",
           link: "/docs/javascript/books/javascript高级程序设计/03-javascript语言基础",
         },
         {
-          text: "04-Javascript变量、作用域与内存",
+          text: "04-JS变量、作用域与内存",
           link: "/docs/javascript/books/javascript高级程序设计/04-Javascript变量、作用域与内存",
         },
         {
@@ -50,6 +50,15 @@ export default {
           text: "06-集合引用类型",
           link: "/docs/javascript/books/javascript高级程序设计/06-集合引用类型",
         },
+        {
+          text: "07-迭代器与生成器",
+          link: "/docs/javascript/books/javascript高级程序设计/07-迭代器与生成器",
+        },
+        {
+          text: "08-对象、类与面向对象编程",
+          link: "/docs/javascript/books/javascript高级程序设计/08-对象、类与面向对象编程",
+        },
+        
       ],
     },
   ],

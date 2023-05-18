@@ -16,8 +16,6 @@ export default {
     },
   ],
 
-
-  
   // javascript
   "/docs/javascript/books": [
     {
@@ -25,7 +23,10 @@ export default {
       collapsible: true,
       collapsed: true,
       items: [
-        { text: "介绍", link: "/docs/javascript/books/javascript高级程序设计/" },
+        {
+          text: "介绍",
+          link: "/docs/javascript/books/javascript高级程序设计/",
+        },
         {
           text: "01-javascript组成?",
           link: "/docs/javascript/books/javascript高级程序设计/01-javascript组成",
@@ -58,16 +59,15 @@ export default {
           text: "08-对象、类与面向对象编程",
           link: "/docs/javascript/books/javascript高级程序设计/08-对象、类与面向对象编程",
         },
-        
       ],
     },
   ],
   "/docs/javascript/frame": [
     {
-      text: "threejs",
+      text: "微信小程序",
       collapsible: true,
       collapsed: true,
-      items: [{ text: "介绍", link: "/docs/javascript/frame/threejs/" }],
+      items: [{ text: "介绍", link: "/docs/javascript/frame/微信小程序/" }],
     },
     {
       text: "uniapp",
@@ -76,12 +76,17 @@ export default {
       items: [{ text: "介绍", link: "/docs/javascript/frame/uniapp/" }],
     },
     {
+      text: "threejs",
+      collapsible: true,
+      collapsed: true,
+      items: [{ text: "介绍", link: "/docs/javascript/frame/threejs/" }],
+    },
+    {
       text: "微前端",
       collapsible: true,
       collapsed: true,
       items: [{ text: "介绍", link: "/docs/javascript/frame/微前端/" }],
     },
-    
   ],
   "/docs/javascript/others": [
     {
@@ -101,7 +106,6 @@ export default {
     },
   ],
 
-
   // vpn
   "/docs/others/vpn": [
     {
@@ -111,9 +115,9 @@ export default {
   ],
 
   // 规范
-  "/docs/others/规范": [ 
+  "/docs/others/规范": [
     {
-      text: '前端规范',
+      text: "前端规范",
       items: [
         {
           text: "介绍",
@@ -140,9 +144,6 @@ export default {
           link: "/docs/others/规范/前端规范/VUE规约.md",
         },
       ],
-    }
-    
+    },
   ],
-
-  
 };

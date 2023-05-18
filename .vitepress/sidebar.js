@@ -8,10 +8,7 @@ export default {
           text: "环形进度条（canvas）",
           link: "/docs/html/环形进度条（canvas）.md",
         },
-        // {
-        //   text: "实现一个滑动标尺",
-        //   link: "/docs/html/实现一个滑动标尺.md",
-        // },
+        
       ],
     },
   ],
@@ -25,10 +22,10 @@ export default {
           text: "水波纹效果",
           link: "/docs/css/水波纹效果.md",
         },
-        // {
-        //   text: "实现一个滑动标尺",
-        //   link: "/docs/html/实现一个滑动标尺.md",
-        // },
+        {
+          text: "磨砂玻璃效果",
+          link: "/docs/css/磨砂玻璃效果.md",
+        },
       ],
     },
   ],

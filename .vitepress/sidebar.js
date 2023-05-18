@@ -16,6 +16,23 @@ export default {
     },
   ],
 
+  // css
+  "/docs/css/": [
+    {
+      text: "实例实现",
+      items: [
+        {
+          text: "水波纹效果",
+          link: "/docs/css/水波纹效果.md",
+        },
+        // {
+        //   text: "实现一个滑动标尺",
+        //   link: "/docs/html/实现一个滑动标尺.md",
+        // },
+      ],
+    },
+  ],
+
   // javascript
   "/docs/javascript/books": [
     {
@@ -62,6 +79,8 @@ export default {
       ],
     },
   ],
+
+  // frame
   "/docs/javascript/frame": [
     {
       text: "微信小程序",

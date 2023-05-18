@@ -1,1 +1,0 @@
-import{_ as s,o as a,c as l,d as e}from"./app.fcfc8c55.js";const y=JSON.parse('{"title":"rust","description":"","frontmatter":{},"headers":[],"relativePath":"docs/rust/index.md"}'),n={name:"docs/rust/index.md"},p=e("",9),t=[p];function o(c,i,r,d,C,h){return a(),l("div",null,t)}const g=s(n,[["render",o]]);export{y as __pageData,g as default};

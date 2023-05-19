@@ -111,13 +111,18 @@ export default {
       collapsed: true,
       items: [
         {
-          text: "Array查询元素索引执行效率差异",
+          text: "1. Array查询元素索引执行效率差异",
           link: "/docs/javascript/others/Array查询元素索引执行效率差异.md",
         },
         {
-          text: "for循环中return、break、continue作用",
+          text: "2. for循环中return、break、continue作用",
           link: "/docs/javascript/others/for循环中return、break、continue作用.md",
         },
+        {
+          text: "3. MutationObserver",
+          link: "/docs/javascript/others/MutationObserver.md",
+        },
+        
       ],
     },
   ],

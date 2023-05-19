@@ -2,6 +2,8 @@
 
 [《Rust 程序设计语言》](https://rustwiki.org/zh-CN/book/title-page.html)
 
+## Rust
+
 查看 Rust 编译器
 
 ```shell
@@ -14,7 +16,7 @@ rustc --version
 rustc ./main.rs
 ```
 
-Rust 项目构建及包管理工具 Cargo
+## Rust 项目构建及包管理工具 Cargo
 
 ```shell
 cargo --version

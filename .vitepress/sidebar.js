@@ -108,7 +108,7 @@ export default {
     {
       text: "杂项",
       collapsible: true,
-      collapsed: true,
+      collapsed: false,
       items: [
         {
           text: "1. Array查询元素索引执行效率差异",
@@ -121,6 +121,10 @@ export default {
         {
           text: "3. MutationObserver",
           link: "/docs/javascript/others/MutationObserver.md",
+        },
+        {
+          text: "4. requestAnimationFrame",
+          link: "/docs/javascript/others/requestAnimationFrame.md",
         },
         
       ],

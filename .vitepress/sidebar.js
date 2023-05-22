@@ -170,5 +170,14 @@ export default {
         },
       ],
     },
+    {
+      text: "Git规范",
+      items: [
+        {
+          text: "介绍",
+          link: "/docs/others/规范/Git规范/index.md",
+        },
+      ],
+    },
   ],
 };

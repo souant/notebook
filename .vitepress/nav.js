@@ -13,6 +13,7 @@ export default [
     items: [
       { text: "书籍", link: "/docs/javascript/books/" },
       { text: "框架", link: "/docs/javascript/frame/" },
+      { text: "TypeScript", link: "/docs/javascript/TypeScript/" },
       { text: "webpack", link: "/docs/javascript/webpack/" },
       { text: "其他", link: "/docs/javascript/others/" },
     ],

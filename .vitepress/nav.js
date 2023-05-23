@@ -15,6 +15,7 @@ export default [
       { text: "框架", link: "/docs/javascript/frame/" },
       { text: "TypeScript", link: "/docs/javascript/TypeScript/" },
       { text: "webpack", link: "/docs/javascript/webpack/" },
+      { text: "正则表达式", link: "/docs/javascript/regex/" },
       { text: "其他", link: "/docs/javascript/others/" },
     ],
   },

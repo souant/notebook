@@ -84,7 +84,22 @@ export default {
           text: "11-期约与异步函数",
           link: "/docs/javascript/books/javascript高级程序设计/11-期约与异步函数",
         },
-        
+        {
+          text: "12-BOM",
+          link: "/docs/javascript/books/javascript高级程序设计/12-BOM",
+        },
+        {
+          text: "13-客户端检测",
+          link: "/docs/javascript/books/javascript高级程序设计/13-客户端检测",
+        },
+        {
+          text: "14-DOM",
+          link: "/docs/javascript/books/javascript高级程序设计/14-DOM",
+        },
+        {
+          text: "15-DOM扩展",
+          link: "/docs/javascript/books/javascript高级程序设计/15-DOM扩展",
+        },
       ],
     },
   ],

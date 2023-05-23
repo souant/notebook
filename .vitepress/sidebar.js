@@ -76,6 +76,10 @@ export default {
           text: "09-代理与反射",
           link: "/docs/javascript/books/javascript高级程序设计/09-代理与反射",
         },
+        {
+          text: "10-函数",
+          link: "/docs/javascript/books/javascript高级程序设计/10-函数",
+        },
       ],
     },
   ],

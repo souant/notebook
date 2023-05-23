@@ -80,6 +80,11 @@ export default {
           text: "10-函数",
           link: "/docs/javascript/books/javascript高级程序设计/10-函数",
         },
+        {
+          text: "11-期约与异步函数",
+          link: "/docs/javascript/books/javascript高级程序设计/11-期约与异步函数",
+        },
+        
       ],
     },
   ],

@@ -72,6 +72,10 @@ export default {
           text: "08-对象、类与面向对象编程",
           link: "/docs/javascript/books/javascript高级程序设计/08-对象、类与面向对象编程",
         },
+        {
+          text: "09-代理与反射",
+          link: "/docs/javascript/books/javascript高级程序设计/09-代理与反射",
+        },
       ],
     },
   ],

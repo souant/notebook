@@ -1,0 +1,1 @@
+import{_ as e,o,c as a,d}from"./app.dd7e0640.js";const _=JSON.parse('{"title":"通用命名规范","description":"","frontmatter":{},"headers":[],"relativePath":"docs/others/规范/前端规范/通用命名规范.md"}'),c={name:"docs/others/规范/前端规范/通用命名规范.md"},l=d("",2),s=[l];function i(t,n,p,r,h,m){return o(),a("div",null,s)}const g=e(c,[["render",i]]);export{_ as __pageData,g as default};

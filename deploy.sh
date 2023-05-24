@@ -8,7 +8,7 @@ npm run build
 
 # 提交
 git add .
-git commit -m 'build'
+git commit -m 'deploy'
 git push git@github.com:souant/notebook.git master:master
 
 # 进入生成的文件夹

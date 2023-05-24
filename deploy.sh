@@ -22,4 +22,8 @@ git commit -m 'deploy'
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
 git push -f git@github.com:souant/notebook.git master:gh-pages
 
+# 删除dist
+cd ../
+rm -f dist
+
 cd -

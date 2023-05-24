@@ -15,5 +15,9 @@ export default defineConfig({
     nav: nav,
     sidebar: sidebar,
     outline: [2, 6],
+    // 搜索
+    search: {
+      provider: "local",
+    },
   },
 });

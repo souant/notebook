@@ -1,0 +1,1 @@
+import{_ as t,o as a,c as e}from"./app.af694299.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"docs/javascript/books/javascript高级程序设计/24-网络请求与远程资源.md"}'),s={name:"docs/javascript/books/javascript高级程序设计/24-网络请求与远程资源.md"};function o(r,_,c,n,p,i){return a(),e("div")}const f=t(s,[["render",o]]);export{m as __pageData,f as default};

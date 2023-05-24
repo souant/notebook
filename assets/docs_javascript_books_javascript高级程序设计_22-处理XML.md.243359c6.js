@@ -1,0 +1,1 @@
+import{_ as t,o as a,c as e}from"./app.af694299.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"docs/javascript/books/javascript高级程序设计/22-处理XML.md"}'),s={name:"docs/javascript/books/javascript高级程序设计/22-处理XML.md"};function o(r,c,n,p,_,i){return a(),e("div")}const f=t(s,[["render",o]]);export{m as __pageData,f as default};

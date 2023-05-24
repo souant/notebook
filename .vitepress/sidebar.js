@@ -100,6 +100,59 @@ export default {
           text: "15-DOM扩展",
           link: "/docs/javascript/books/javascript高级程序设计/15-DOM扩展",
         },
+        {
+          text: "16-DOM2和DOM3",
+          link: "/docs/javascript/books/javascript高级程序设计/16-DOM2和DOM3",
+        },
+        {
+          text: "17-事件",
+          link: "/docs/javascript/books/javascript高级程序设计/17-事件",
+        },
+        {
+          text: "18-动画与Canvas图形",
+          link: "/docs/javascript/books/javascript高级程序设计/18-动画与Canvas图形",
+        },
+        {
+          text: "19-表单脚本",
+          link: "/docs/javascript/books/javascript高级程序设计/19-表单脚本",
+        },
+        {
+          text: "20-javascriptAPI",
+          link: "/docs/javascript/books/javascript高级程序设计/20-javascriptAPI",
+        },
+        {
+          text: "21-错误处理与调试",
+          link: "/docs/javascript/books/javascript高级程序设计/21-错误处理与调试",
+        },
+        {
+          text: "22-处理XML",
+          link: "/docs/javascript/books/javascript高级程序设计/22-处理XML",
+        },
+        {
+          text: "23-JSON",
+          link: "/docs/javascript/books/javascript高级程序设计/23-JSON",
+        },
+        {
+          text: "24-网络请求与远程资源",
+          link: "/docs/javascript/books/javascript高级程序设计/24-网络请求与远程资源",
+        },
+        {
+          text: "25-客户端存储",
+          link: "/docs/javascript/books/javascript高级程序设计/25-客户端存储",
+        },
+        {
+          text: "26-模块",
+          link: "/docs/javascript/books/javascript高级程序设计/26-模块",
+        },
+        {
+          text: "27-工作者线程",
+          link: "/docs/javascript/books/javascript高级程序设计/27-工作者线程",
+        },
+        {
+          text: "28-最佳实践",
+          link: "/docs/javascript/books/javascript高级程序设计/28-最佳实践",
+        },
+        
       ],
     },
   ],

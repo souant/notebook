@@ -1,1 +1,0 @@
-import{_ as s,o as n,c as a,d as l}from"./app.af694299.js";const _=JSON.parse('{"title":"nginx 配置文件","description":"","frontmatter":{},"headers":[],"relativePath":"docs/others/nginx/配置文件.md"}'),p={name:"docs/others/nginx/配置文件.md"},o=l("",2),e=[o];function t(c,r,i,y,C,A){return n(),a("div",null,e)}const f=s(p,[["render",t]]);export{_ as __pageData,f as default};

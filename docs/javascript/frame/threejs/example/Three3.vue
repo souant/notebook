@@ -5,6 +5,7 @@
 </template>
 
 <script>
+import { withBase } from 'vitepress'
 import {
   Color, // 色彩
   Scene, // 场景
@@ -25,6 +26,7 @@ export default {
   },
   mounted() {
     this.init();
+    console.log(this);
   },
   methods: {
     init() {
@@ -43,12 +45,7 @@ export default {
       document.getElementById("three3").appendChild(renderer.domElement);
 
       // 创建相机
-      const camera = new PerspectiveCamera(
-        60,
-        1,
-        1,
-        1000
-      );
+      const camera = new PerspectiveCamera(60, 1, 1, 1000);
       // 移动相机位置
       camera.position.set(5, 2, 1);
 
@@ -71,12 +68,13 @@ export default {
         // 渲染
         render();
       }
+      console.log(withBase('1'))
 
       // 加载3D模型
       loader.load(
         // "./example/scifi_girl_v.01.glb",
         // "./example/phoenix_bird/scene.gltf",
-        "./example/pony_cartoon/scene.gltf",
+        withBase("/gtlf/pony_cartoon/scene.gltf"),
         function (gltf) {
           scene.add(gltf.scene);
 

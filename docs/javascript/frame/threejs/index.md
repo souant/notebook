@@ -1,6 +1,7 @@
 <script setup>
   import Three1 from './example/Three1.vue'
   import Three2 from './example/Three2.vue'
+  import Three3 from './example/Three3.vue'
 </script>
 
 # threejs
@@ -192,4 +193,8 @@ export default {
 
 :::
 
+
+### 3D模型
+
+<Three3 />
 

@@ -45,7 +45,7 @@ export default {
       // 创建相机
       const camera = new PerspectiveCamera(
         60,
-        window.innerWidth / window.innerHeight,
+        1,
         1,
         1000
       );

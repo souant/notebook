@@ -22,7 +22,7 @@ type 代表某次提交的类型，比如：是修复一个 bug 还是增加一�
 
 类型如下：
 
-- feat: 新功能(feature)
+- feat: 新功能、新特性
 - fix: 修复 bug
 - docs: 文档（documentation），比如 README, CHANGELOG, CONTRIBUTE 等等
 - style: 格式（不影响代码运行的变动），仅仅修改了空格、格式缩进、逗号等等，不改变代码逻辑
@@ -35,6 +35,9 @@ type 代表某次提交的类型，比如：是修复一个 bug 还是增加一�
 - sync：同步主线或分支的 Bug。
 - build: 打包
 - ci: 与 CI（持续集成服务）有关的改动
+- release：发布新版本；
+- workflow：工作流相关文件修改。
+
 
 ### scope(可选)
 

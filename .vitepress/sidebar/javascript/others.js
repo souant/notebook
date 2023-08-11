@@ -22,6 +22,15 @@ export default {
           text: "4. requestAnimationFrame",
           link: "/docs/javascript/others/requestAnimationFrame.md",
         },
+        {
+          text: "5. React和Vue框架的区别",
+          link: "/docs/javascript/others/React和Vue框架的区别.md",
+        },
+        {
+          text: "6. Web Components",
+          link: "/docs/javascript/others/Web Components.md",
+        },
+        
       ],
     },
   ],

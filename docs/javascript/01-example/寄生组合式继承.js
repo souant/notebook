@@ -1,23 +1,20 @@
-function Parent() {
-  this.a = 1
-  this.b = 2
+function inheritPrototype(subType, superType) {
+  let prototype = Object.create(superType.prototype); // 创建对象
+  prototype.constructor = subType; // 增强对象
+  subType.prototype = prototype; // 赋值对象
 }
-
-Parent.prototype.getNum = function() {
-  console.log(this.a)
+function SuperType(name) {
+  this.name = name;
+  this.colors = ["red", "blue", "green"];
 }
-
-function Child() {
-  // 状态继承
-  Parent.call(this)
-  this.c = 3
+SuperType.prototype.sayName = function () {
+  console.log(this.name);
+};
+function SubType(name, age) {
+  SuperType.call(this, name);
+  this.age = age;
 }
-
-// 原型继承
-Child.prototype = Object.create(Parent.prototype)
-Child.prototype.contructor = Child
-
-let obj = new Child()
-
-console.log(obj)
-
+inheritPrototype(SubType, SuperType);
+SubType.prototype.sayAge = function () {
+  console.log(this.age);
+};

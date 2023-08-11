@@ -1,4 +1,5 @@
 import 规范 from "./规范";
+import 网络 from "./网络"
 // vpn
 import vpn from "./vpn";
 // nginx
@@ -8,6 +9,7 @@ import interview from "./interview";
 
 export default {
   ...规范,
+  ...网络,
   ...vpn,
   ...nginx,
   ...interview

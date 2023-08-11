@@ -32,6 +32,8 @@ export default [
   // 其他
   { text: "其他", items: [
     { text: "规范", link: "/docs/others/规范/" },
+    { text: "网络", link: "/docs/others/网络/" },
+    { text: "git", link: "/docs/others/git/" },
     { text: "VPN", link: "/docs/others/vpn/" },
     { text: "Docker", link: "/docs/others/docker/" },
     { text: "Nginx", link: "/docs/others/nginx/" },

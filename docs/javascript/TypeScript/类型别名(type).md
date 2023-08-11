@@ -26,3 +26,6 @@ function handleEvent(ele: Element, event: EventNames) {
 handleEvent(document.getElementById("hello"), "scroll"); // 没问题
 handleEvent(document.getElementById("world"), "dblclick"); // 报错，event 不能为 'dblclick'
 ```
+
+
+

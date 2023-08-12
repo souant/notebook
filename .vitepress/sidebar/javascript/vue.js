@@ -31,7 +31,10 @@ export default {
           text: "虚拟DOM&diff算法",
           link: "/docs/javascript/vue/vue2/虚拟DOM&diff算法",
         },
-        
+        {
+          text: "compiler编译器",
+          link: "/docs/javascript/vue/vue2/compiler编译器",
+        },
       ],
     },
   ],

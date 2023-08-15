@@ -2,10 +2,15 @@ export default [
   // html
   { text: "HTML", link: "/docs/html/" },
 
-
   // css
-  { text: "CSS", link: "/docs/css/" },
-
+  {
+    text: "CSS",
+    items: [
+      { text: "实现", link: "/docs/css/example/" },
+      { text: "sass", link: "/docs/css/sass/" },
+      { text: "less", link: "/docs/css/less/" },
+    ],
+  },
 
   // js
   {
@@ -21,22 +26,23 @@ export default [
     ],
   },
 
-
   // rust
   { text: "Rust", link: "/docs/rust/" },
-
 
   // java
   { text: "Java", link: "/docs/java/" },
 
   // 其他
-  { text: "其他", items: [
-    { text: "规范", link: "/docs/others/规范/" },
-    { text: "网络", link: "/docs/others/网络/" },
-    { text: "git", link: "/docs/others/git/" },
-    { text: "VPN", link: "/docs/others/vpn/" },
-    { text: "Docker", link: "/docs/others/docker/" },
-    { text: "Nginx", link: "/docs/others/nginx/" },
-    { text: "Interview", link: "/docs/others/interview/" }
-  ] },
+  {
+    text: "其他",
+    items: [
+      { text: "规范", link: "/docs/others/规范/" },
+      { text: "网络", link: "/docs/others/网络/" },
+      { text: "git", link: "/docs/others/git/" },
+      { text: "VPN", link: "/docs/others/vpn/" },
+      { text: "Docker", link: "/docs/others/docker/" },
+      { text: "Nginx", link: "/docs/others/nginx/" },
+      { text: "Interview", link: "/docs/others/interview/" },
+    ],
+  },
 ];

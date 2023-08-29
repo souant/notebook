@@ -37,7 +37,7 @@ export default {
 
         {
           text: "1. 类型别名(type)",
-          link: "/docs/javascript/TypeScript/类型别名.md",
+          link: "/docs/javascript/TypeScript/类型别名(type).md",
         },
         {
           text: "2. 对象的类型(interface)",

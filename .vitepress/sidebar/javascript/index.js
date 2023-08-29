@@ -6,6 +6,8 @@ import frame from './frame'
 import vue from './vue'
 // typescript
 import typescript from './typescript'
+// webpack
+import webpack from './webpack'
 // regex
 import regex from './regex'
 // others
@@ -16,6 +18,7 @@ export default {
   ...frame,
   ...vue,
   ...typescript,
+  ...webpack,
   ...regex,
-  ...others
+  ...others,
 }

@@ -38,6 +38,7 @@ export default [
     items: [
       { text: "规范", link: "/docs/others/规范/" },
       { text: "网络", link: "/docs/others/网络/" },
+      { text: "工程化", link: "/docs/others/工程化/" },
       { text: "git", link: "/docs/others/git/" },
       { text: "VPN", link: "/docs/others/vpn/" },
       { text: "Docker", link: "/docs/others/docker/" },

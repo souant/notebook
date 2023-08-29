@@ -5,7 +5,8 @@ export default {
       text: "微信小程序",
       collapsible: true,
       collapsed: true,
-      items: [{ text: "介绍", link: "/docs/javascript/frame/微信小程序/" }],
+      items: [{ text: "介绍", link: "/docs/javascript/frame/微信小程序/" },
+      { text: "生命周期", link: "/docs/javascript/frame/微信小程序/生命周期" }],
     },
     {
       text: "uniapp",

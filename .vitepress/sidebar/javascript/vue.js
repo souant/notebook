@@ -37,5 +37,12 @@ export default {
         },
       ],
     },
+    // ssr
+    {
+      text: "服务端渲染",
+      collapsible: true,
+      collapsed: false,
+      items: [{ text: "vue工程ssr改造", link: "/docs/javascript/vue/ssr/" }],
+    },
   ],
 };

@@ -1,41 +1,19 @@
 {
-  "hash": "bc705be4",
-  "browserHash": "b8c2f8d6",
+  "hash": "b3f04f53",
+  "browserHash": "f37564ee",
   "optimized": {
     "vue": {
       "src": "../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "739e0d99",
+      "fileHash": "710f470b",
       "needsInterop": false
     },
     "@theme/index": {
       "src": "../../../node_modules/vitepress/dist/client/theme-default/index.js",
       "file": "@theme_index.js",
-      "fileHash": "196e8752",
-      "needsInterop": false
-    },
-    "three": {
-      "src": "../../../node_modules/three/build/three.module.js",
-      "file": "three.js",
-      "fileHash": "c85ad574",
-      "needsInterop": false
-    },
-    "three/addons/loaders/GLTFLoader.js": {
-      "src": "../../../node_modules/three/examples/jsm/loaders/GLTFLoader.js",
-      "file": "three_addons_loaders_GLTFLoader__js.js",
-      "fileHash": "2794b0a7",
-      "needsInterop": false
-    },
-    "three/addons/controls/OrbitControls.js": {
-      "src": "../../../node_modules/three/examples/jsm/controls/OrbitControls.js",
-      "file": "three_addons_controls_OrbitControls__js.js",
-      "fileHash": "0b326e99",
+      "fileHash": "3ef6d17b",
       "needsInterop": false
     }
   },
-  "chunks": {
-    "chunk-JWT3PPYE": {
-      "file": "chunk-JWT3PPYE.js"
-    }
-  }
+  "chunks": {}
 }

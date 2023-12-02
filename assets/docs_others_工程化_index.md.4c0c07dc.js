@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as o}from"./chunks/framework.26fe01eb.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"docs/others/工程化/index.md","filePath":"docs/others/工程化/index.md"}'),s={name:"docs/others/工程化/index.md"};function r(a,n,c,d,i,p){return t(),o("div")}const f=e(s,[["render",r]]);export{m as __pageData,f as default};

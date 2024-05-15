@@ -8,10 +8,10 @@ hero:
   tagline: ""
   actions:
     - theme: brand
-      text: Markdown
+      text: Markdown 示例
       link: /markdown-examples
     - theme: alt
-      text: API
+      text: API 示例
       link: /api-examples
 
 features:

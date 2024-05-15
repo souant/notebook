@@ -7,13 +7,10 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "dev": "vitepress dev",
+    "dev": "vitepress dev --port 9010",
     "build": "vitepress build",
     "preview": "vitepress preview",
-    "deploy": "deploy.sh",
-    "docs:dev": "vitepress dev",
-    "docs:build": "vitepress build",
-    "docs:preview": "vitepress preview"
+    "deploy": "deploy.sh"
   },
   "devDependencies": {
     "vitepress": "^1.1.4",

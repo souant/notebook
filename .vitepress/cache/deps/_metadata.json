@@ -1,41 +1,58 @@
 {
-  "hash": "d216a236",
-  "browserHash": "d3359fc1",
+  "hash": "7db7eb35",
+  "configHash": "dff37473",
+  "lockfileHash": "3833db96",
+  "browserHash": "b26160bf",
   "optimized": {
     "vue": {
       "src": "../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "ff3a75d4",
+      "fileHash": "97e6e78a",
+      "needsInterop": false
+    },
+    "vitepress > @vue/devtools-api": {
+      "src": "../../../node_modules/@vue/devtools-api/dist/index.js",
+      "file": "vitepress___@vue_devtools-api.js",
+      "fileHash": "027bf9cb",
+      "needsInterop": false
+    },
+    "vitepress > @vueuse/core": {
+      "src": "../../../node_modules/@vueuse/core/index.mjs",
+      "file": "vitepress___@vueuse_core.js",
+      "fileHash": "0625203e",
+      "needsInterop": false
+    },
+    "vitepress > @vueuse/integrations/useFocusTrap": {
+      "src": "../../../node_modules/@vueuse/integrations/useFocusTrap.mjs",
+      "file": "vitepress___@vueuse_integrations_useFocusTrap.js",
+      "fileHash": "a296e3d8",
+      "needsInterop": false
+    },
+    "vitepress > mark.js/src/vanilla.js": {
+      "src": "../../../node_modules/mark.js/src/vanilla.js",
+      "file": "vitepress___mark__js_src_vanilla__js.js",
+      "fileHash": "059b06fe",
+      "needsInterop": false
+    },
+    "vitepress > minisearch": {
+      "src": "../../../node_modules/minisearch/dist/es/index.js",
+      "file": "vitepress___minisearch.js",
+      "fileHash": "0a832eb1",
       "needsInterop": false
     },
     "@theme/index": {
       "src": "../../../node_modules/vitepress/dist/client/theme-default/index.js",
       "file": "@theme_index.js",
-      "fileHash": "e96b0bb0",
-      "needsInterop": false
-    },
-    "three": {
-      "src": "../../../node_modules/three/build/three.module.js",
-      "file": "three.js",
-      "fileHash": "5550eb13",
-      "needsInterop": false
-    },
-    "three/addons/loaders/GLTFLoader.js": {
-      "src": "../../../node_modules/three/examples/jsm/loaders/GLTFLoader.js",
-      "file": "three_addons_loaders_GLTFLoader__js.js",
-      "fileHash": "0503ecb8",
-      "needsInterop": false
-    },
-    "three/addons/controls/OrbitControls.js": {
-      "src": "../../../node_modules/three/examples/jsm/controls/OrbitControls.js",
-      "file": "three_addons_controls_OrbitControls__js.js",
-      "fileHash": "a7666334",
+      "fileHash": "6e60e9b8",
       "needsInterop": false
     }
   },
   "chunks": {
-    "chunk-JWT3PPYE": {
-      "file": "chunk-JWT3PPYE.js"
+    "chunk-3LT33FZL": {
+      "file": "chunk-3LT33FZL.js"
+    },
+    "chunk-JWA4H7QR": {
+      "file": "chunk-JWA4H7QR.js"
     }
   }
 }

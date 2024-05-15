@@ -5,14 +5,18 @@
   "repository": "https://gitee.com/mwoen/notebook.git",
   "author": "souant <1032911889@qq.com>",
   "license": "MIT",
+  "type": "module",
   "scripts": {
     "dev": "vitepress dev",
     "build": "vitepress build",
     "preview": "vitepress preview",
-    "deploy": "deploy.sh"
+    "deploy": "deploy.sh",
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
   },
   "devDependencies": {
-    "vitepress": "^1.0.0-beta.1",
+    "vitepress": "^1.1.4",
     "vue": "^3.3.4"
   },
   "dependencies": {

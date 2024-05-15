@@ -8,7 +8,7 @@
 
 <script setup></script>
 
-<style>
+<style scoped>
 .example-container {
   display: flex;
   justify-content: center;

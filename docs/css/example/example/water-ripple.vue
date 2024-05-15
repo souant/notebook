@@ -23,7 +23,7 @@
 <script setup></script>
 
 <!-- 圆形扩散水波纹效果 -->
-<style>
+<style scoped>
 .example-container {
   display: flex;
   justify-content: center;

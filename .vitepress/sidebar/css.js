@@ -12,6 +12,10 @@ export default {
           text: "磨砂玻璃效果",
           link: "/docs/css/example/磨砂玻璃效果.md",
         },
+        {
+          text: "图片帧动画",
+          link: "/docs/css/example/图片帧动画.md",
+        },
       ],
     },
   ],

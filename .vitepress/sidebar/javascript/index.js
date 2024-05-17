@@ -10,6 +10,8 @@ import typescript from './typescript'
 import webpack from './webpack'
 // regex
 import regex from './regex'
+// design-patterns
+import designPatterns from './design-patterns'
 // others
 import others from './others'
 
@@ -20,5 +22,6 @@ export default {
   ...typescript,
   ...webpack,
   ...regex,
+  ...designPatterns,
   ...others,
 }

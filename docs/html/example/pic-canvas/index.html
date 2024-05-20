@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Canvas鼠标滚轮缩放和拖放</title>
+    <style>
+      canvas {
+        border: solid 1px #000;
+        margin: 0px auto;
+        display: block;
+      }
+      .options {
+        display: flex;
+        justify-content: center;
+        height: 44px;
+        align-items: center;
+      }
+      button {
+        margin-left: 15px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="options">
+      <button onclick="zoomIn()">放大 +</button>
+      <button onclick="zoomOut()">缩小 -</button>
+      <button onclick="reset()">还原</button>
+    </div>
+    <canvas id="canvas"></canvas>
+    <script src="./index.js"></script>
+    <script>
+      let scene = new Scene("canvas");
+
+      const image = new Image();
+      image.onload = () => {
+        scene.image = image
+        scene.draw();
+      };
+      image.onerror = () => {};
+      image.src = "./img.jpg";
+
+      
+
+      // 放大
+      function zoomIn() {
+        scene.zoomIn();
+      }
+
+      // 缩小
+      function zoomOut() {
+        scene.zoomOut();
+      }
+
+      // 还原
+      function reset() {
+        scene.reset();
+      }
+    </script>
+  </body>
+</html>
